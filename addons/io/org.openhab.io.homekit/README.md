@@ -88,13 +88,13 @@ A full list of supported accessory types can be found in the table below.
 See the sample below for example items:
 
 ```
-Switch KitchenLights "Kitchen Lights" <light> (gKitchen) [ "Lighting" ]
+Switch KitchenLights "Kitchen Lights" <light> (gKitchen) [ "Lighting" ] 
 Dimmer BedroomLights "Bedroom Lights" <light> (gBedroom) [ "Lighting" ]
 Number BedroomTemperature "Bedroom Temperature" (gBedroom) [ "CurrentTemperature" ]
 Group gDownstairsThermostat "Downstairs Thermostat" (gFF) [ "Thermostat" ]
 Number DownstairsThermostatCurrentTemp "Downstairs Thermostat Current Temperature" (gDownstairsThermostat) [ "CurrentTemperature" ]
 Number DownstairsThermostatTargetTemperature "Downstairs Thermostat Target Temperature" (gDownstairsThermostat) [ "TargetTemperature" ]
-String DownstairsThermostatHeatingCoolingMode "Downstairs Thermostat Heating/Cooling Mode" (gDownstairsThermostat) [ "homekit:HeatingCoolingMode" ]
+String DownstairsThermostatHeatingCoolingMode "Downstairs Thermostat Heating/Cooling Mode" (gDownstairsThermostat) [ "HeatingCoolingMode" ]
 ```
 
 ## Additional Notes
